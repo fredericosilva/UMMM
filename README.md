@@ -113,6 +113,13 @@ Appends `dpiAwareness` tag for custom DPI aware applications.
 
     Parameters       <elements> comma separated
 
+#### GdiScaling
+
+Appends `gdiScaling` tag for enabling GDI scaling
+
+    Parameters       [on_off] [per_monitor]
+      on_off         (optional) true/false or 0/1. Default is 0
+
 #### SupportedOS
 
 Appends `supportedOS` tag.
